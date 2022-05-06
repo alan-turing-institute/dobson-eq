@@ -1,13 +1,10 @@
 # MIT (software) and Creative Commons (documentation/content) License
 
-<!--Delete these sentences when reusing this repository-->
-To learn more about why we recommend using a LICENSE.md file, please read the [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html) in The Turing Way Guide for Project Design.
-To identify and select an appropriate license for the content in your project, please read the [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html#) chapter in The Turing Way Guide to Reproducible Research. 
-<!--Delete these sentences when reusing this repository-->
+Ozone data may be subject to the OGL (Open Government License)
 
 ## MIT License
 
-Copyright (c) 2021 The Alan Turing Institute
+Copyright (c) 2022 The Alan Turing Institute / British Antarctic Survey
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
