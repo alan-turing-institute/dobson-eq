@@ -7,7 +7,9 @@
 
 ## About this Repository
 
--
+This repository is for the collaboration between the [Equadratures](https://equadratures.org/) team and the British Antarctic Survey' [Atmosphere, Ice and Climate](https://www.bas.ac.uk/team/science-teams/climate/) and [Artificial Intelligence](https://www.bas.ac.uk/team/science-teams/ai-lab/) teams. 
+
+The goal is to improve the analytical processing that calculates Ozone values from the raw data of the manual and automated [Dobson Spectrophotometers](https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/halley/dobson-spectrophotometer/) running at the [Halley Research Station](https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/halley/).
 
 🎯 Roadmap
 ---
@@ -19,9 +21,9 @@
 - [x] Add a [LICENSE](LICENSE.md)
 - [x] Add a [Code of Conduct](CODE_OF_CONDUCT.md)
 - [x] Install [all-contributors](https://allcontributors.org/) bot
-- [ ] .gitignore file (choose from a template)
-- [ ] Issue templates
-    - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
+- [x] .gitignore file (choose from a template)
+- [x] Issue templates
+  - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
 - [ ] Create a directory with files for project management (meetings, report, proposals)
 - [ ] Create a directory with files for communications
 - [ ] Create a directory for research analysis
@@ -40,7 +42,7 @@ For any organisation related queries or concerns, you can directly reach out to 
 ♻️ License
 ---
 
-This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for documentation). 
+This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for documentation), though any sample ozone data may be OGL (Open Government Licensed). 
 You are free to share and adapt the material for any purpose, even commercially, 
 as long as you provide attribution (give appropriate credit, provide a link to the license, 
 and indicate if changes were made) in any reasonable manner, but not in any way that suggests the 
