@@ -23,11 +23,10 @@ The goal is to improve the analytical processing that calculates Ozone values fr
 - [x] Install [all-contributors](https://allcontributors.org/) bot
 - [x] .gitignore file (choose from a template)
 - [x] Issue templates
-  - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
 - [ ] Create a directory with files for project management (meetings, report, proposals)
 - [ ] Create a directory with files for communications
-- [ ] Create a directory for research analysis
-- [ ] Create a directory for research results/outcome to share (?)
+- [x] Create a directory for research analysis
+- [x] Create a directory for research data/results
 - [ ] Create a directory for ethics approval and project policies
 - [ ] Create a directory with files for stakeholders info and nature of engagement
 - [ ] Connect repo with Zenodo
@@ -37,7 +36,7 @@ The goal is to improve the analytical processing that calculates Ozone values fr
 📫 Contact
 ---
 
-For any organisation related queries or concerns, you can directly reach out to ___________.
+For any organisation related queries or concerns, you can directly reach out to jding@turing.ac.uk.
 
 ♻️ License
 ---
@@ -57,7 +56,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/psesh"><img src="https://avatars.githubusercontent.com/u/12463105?v=4" width="100px;" alt=""/><br /><sub><b>Pranay Seshadri</b></sub></a><br /><a href="#ideas-pranay" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-pranay" title="equadratures"></a></td>
+    <td align="center"><a href="https://github.com/psesh"><img src="https://avatars.githubusercontent.com/u/12463105?v=4" width="100px;" alt=""/><br /><sub><b>Pranay Seshadri</b></sub></a><br /><a href="#ideas-pranay" title="equadratures">🤔</a> <a href="#content-pranay" title="equadratures"></a></td>
+   <td align="center"><a href="https://github.com/JimCircadian"><img src="https://avatars.githubusercontent.com/u/731727?v=4" width="100px;" alt=""/><br /><sub><b>Jim</b></sub></a><br /><a href="#ideas-jim" title="BAS">🤔</a> <a href="#content-jim" title="BAS"></a></td>
   </tr>
 </table>
 
