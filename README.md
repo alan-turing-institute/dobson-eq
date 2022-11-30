@@ -56,8 +56,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/psesh"><img src="https://avatars.githubusercontent.com/u/12463105?v=4" width="100px;" alt=""/><br /><sub><b>Pranay Seshadri</b></sub></a><br /><a href="#ideas-pranay" title="equadratures">🤔</a> <a href="#content-pranay" title="equadratures"></a></td>
    <td align="center"><a href="https://github.com/JimCircadian"><img src="https://avatars.githubusercontent.com/u/731727?v=4" width="100px;" alt=""/><br /><sub><b>Jim</b></sub></a><br /><a href="#ideas-jim" title="BAS">🤔</a> <a href="#content-jim" title="BAS"></a></td>
+   <td align="center"><a href="https://github.com/pyatsysh"><img src="https://avatars.githubusercontent.com/u/20075514?v=4" width="100px;" alt=""/><br /><sub><b>Peter Yatsyshin</b></sub></a><br /><a href="#ideas-peter" title="equadratures">🤔</a> <a href="#content-peter" title="equadratures"></a></td>
+   <td align="center"><a href="https://github.com/bnubald"><img src="https://avatars.githubusercontent.com/u/55503826?v=4" width="100px;" alt=""/><br /><sub><b>Bryn N. Ubald</b></sub></a><br /><a href="#ideas-bryn" title="equadratures">🤔</a> <a href="#content-bryn" title="equadratures"></a></td>
+   <td align="center"><a href="https://github.com/psesh"><img src="https://avatars.githubusercontent.com/u/12463105?v=4" width="100px;" alt=""/><br /><sub><b>Pranay Seshadri</b></sub></a><br /><a href="#ideas-pranay" title="equadratures">🤔</a> <a href="#content-pranay" title="equadratures"></a></td>
   </tr>
 </table>
 
