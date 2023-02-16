@@ -1,0 +1,16 @@
+# this is annual const file
+-75.57 25.48 031 # station coordinates
+-0.040  -0.030  -0.030 # Lo offsets (may or may not change on annual basis)
+-0.019 -0.028 0.000 0.197 0.379 0.000 0.612 # light diffusing plate (on top of where
+the sun light enters)
+2.370 15 # offset between CD ds and AD ds, assuming AD is right. If there's a big offset, it may imply that Lo values are wrong
+40 -15 -25 100 { AD, CD, CC, CDh }
+2020 06 30 00 00
+-0.010  0.012  0.006
+-0.030  0.005  -0.002 {2017 12 23}
+-0.020  -0.005  -0.005 {2018 01 29}
+-0.022  -0.013  -0.011 {2018 01 30}
+-0.030  -0.020  -0.025 {2019 01 14}
+-0.040  -0.030  -0.030 {2020 01 10}
+40 -15 -30 100 {-155} { AD, CD, CC, CDh 2019 01 14}
+40 -15 -25 100 { AD, CD, CC, CDh 2020 01 10}

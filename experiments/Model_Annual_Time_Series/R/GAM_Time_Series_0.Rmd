@@ -1,0 +1,69 @@
+---
+title: "Use mgcv"
+output: html_notebook
+---
+
+\# Import data and libs\
+
+\*fdsfd\*\
+
+
+```{r}
+X <- read.csv('x_ozone.csv')
+y <- read.csv('t_ozone.csv')
+yq <- read.csv('t_querry.csv')
+
+df <- read.csv('ozone_df.csv')
+df$scaled_x <- scale(df$x)
+```
+
+```{r}
+library(ggplot2)
+library(plotly)
+library(mgcv)
+```
+
+```{r}
+ggplot()+
+  geom_smooth(aes(x=df$dt, y=df$scaled_x))+
+  geom_point(aes(x=df$dt, y=df$scaled_x))
+```
+
+
+Let's try naively
+```{r}
+m1 <- gam(scaled_x ~ s(dt), data = df)
+```
+
+```{r}
+ggplot()+
+  geom_point(aes(x=df$dt, y=df$scaled_x), col="firebrick")+
+  geom_point(aes(x=df$dt, y=m1$fitted.values))+
+  geom_line(aes(x=df$dt, y=m1$fitted.values))
+```
+
+```{r}
+
+```
+
+
+```{r}
+p <- ggplot(df, aes(x = dt, y = x)) + geom_point()
+# ggplotly(p)
+p
+```
+
+```{r}
+ggplot() + geom_smooth(aes(x=df$dt, y=m1$fitted.values)) + geom_point(aes(x=df$dt, y=df$scaled_x))
+```
+
+
+
+
+
+
+
+
+
+
+

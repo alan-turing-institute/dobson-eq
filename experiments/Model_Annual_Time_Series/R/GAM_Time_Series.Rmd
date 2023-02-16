@@ -1,0 +1,81 @@
+---
+title: "Use mgcv"
+output: html_notebook
+---
+
+\# Import data and libs\
+
+```{r}
+library(ggplot2)
+library(plotly)
+library(mgcv)
+```
+
+
+```{r}
+X <- read.csv('x_ozone.csv')
+y <- read.csv('t_ozone.csv')
+yq <- read.csv('t_querry.csv')
+
+df <- read.csv('ozone_df.csv')
+df$scaled_x <- scale(df$x)
+df$T <- as.POSIXct(df$t)
+
+
+dfs <- read.csv('../df_seasonal.csv')
+dfs$scaled_x <- scale(dfs$x)
+dfs$T <- as.POSIXct(dfs$X)
+```
+
+```{r}
+# ggplot()+
+#   geom_boxplot(aes(x=dfs$month, y=dfs$scaled_x))
+```
+
+```{r}
+ggplot()+
+  geom_point(aes(x=df$T, y=df$scaled_x), size = .5)
+```
+Let's consider monthly features
+
+
+
+Let's try naively
+```{r}
+m1 <- gam(scaled_x ~ s(dt), data = df)
+
+m1 <- gam(scaled_x~s(as.Date(T)), data = dfs)
+```
+
+```{r}
+ggplot()+
+  geom_point(aes(x=df$dt, y=df$scaled_x), col="firebrick")+
+  geom_point(aes(x=df$dt, y=m1$fitted.values))+
+  geom_line(aes(x=df$dt, y=m1$fitted.values))
+```
+
+```{r}
+
+```
+
+
+```{r}
+p <- ggplot(df, aes(x = dt, y = x)) + geom_point()
+# ggplotly(p)
+p
+```
+
+```{r}
+ggplot() + geom_smooth(aes(x=df$dt, y=m1$fitted.values)) + geom_point(aes(x=df$dt, y=df$scaled_x))
+```
+
+
+
+
+
+
+
+
+
+
+
